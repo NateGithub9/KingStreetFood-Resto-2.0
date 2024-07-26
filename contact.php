@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://nategithub9.github.io/official-king-street-food/">Home</a>
+            <a class="nav-link active" aria-current="page" href="https://resto20-03c35a5c64a8.herokuapp.com">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="carte.html">Menu</a>
