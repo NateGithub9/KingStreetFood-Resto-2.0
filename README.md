@@ -47,7 +47,3 @@ J'ai caché les informations sensibles avec .gitignore et .env.
 Les fonctionnalités PHP ne réagissent pas comme celles qui sont sur le serveur local.
 
 J'ai réussi à obtenir toutes les informations de connexion "Heroku Postgres", mais il y a sûrement une erreur de connexion. 
-
----
-
-J'ai effectué des corrections grammaticales et orthographiques pour améliorer la clarté et la lisibilité de votre document.
