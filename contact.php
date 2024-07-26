@@ -13,41 +13,40 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <img src="assets/images/logo.png" alt="logo" title="logo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
-                        href="https://nategithub9.github.io/official-king-street-food/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="carte.html">Menu</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Infos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="notre_histoire.html">Notre histoire</a></li>
-                        <li><a class="dropdown-item" href="streets.html">Emplacements</a></li>
-                        <li><a class="dropdown-item" href="photo.html">Photos</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="contact.html">Contactez-nous</a></li>
-                    </ul>
-                </li>
+      <a class="navbar-brand" href="#"></a>
+      <img src="assets/images/logo.png" alt="logo" title="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="https://nategithub9.github.io/official-king-street-food/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carte.html">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Infos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="notre_histoire.html">Notre histoire</a></li>
+              <li><a class="dropdown-item" href="streets.html">Emplacements</a></li>
+              <li><a class="dropdown-item" href="photo.html">Photos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="contact.html">Contactez-nous</a></li>
             </ul>
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
 
   <div class="row justify-content-center">
@@ -55,27 +54,26 @@
       <div class="row">
         <!-- Contact Form-->
         <div class="col-md-6 mx-auto">
-          <form>
+          <form action="contact_form_script.php" method="post">
             <div class="form-group">
               <label for="exampleInputLastName1">Nom</label>
-              <input type="text" class="form-control" id="exampleInputLastName1" aria-describedby="lastNameHelp"
+              <input type="text" class="form-control" id="exampleInputLastName1" name="last_name"
                 placeholder="Entrer votre Nom">
             </div>
             <div class="form-group">
               <label for="exampleInputFirstName1">Prénom</label>
-              <input type="text" class="form-control" id="exampleInputFirstName1" aria-describedby="firstNameHelp"
+              <input type="text" class="form-control" id="exampleInputFirstName1" name="first_name"
                 placeholder="Entrer votre Prénom">
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1">E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              <input type="email" class="form-control" id="exampleInputEmail1" name="email"
                 placeholder="Entrer votre E-mail">
-              <small id="emailHelp" class="form-text text-muted">(Votre e-mail ne sera pas
-                partagé.)</small>
+              <small id="emailHelp" class="form-text text-muted">(Votre e-mail ne sera pas partagé.)</small>
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect2">Objet du message</label>
-              <select class="form-control">
+              <select class="form-control" name="subject">
                 <option disabled selected>Choisissez votre objet</option>
                 <option>Jobs</option>
                 <option>Emplacements</option>
@@ -87,12 +85,12 @@
             </div>
             <div class="form-group">
               <label for="exampleInputMessage1">Message</label>
-              <textarea type="text" class="form-control" id="exampleInputMessage1" aria-describedby="messageHelp"
+              <textarea type="text" class="form-control" id="exampleInputMessage1" name="message"
                 placeholder="Entrer votre message"></textarea>
             </div>
-            <button type="submit" class="btn btn-info"><i class="fas fa-check-circle"></i>
-              Envoyer</button>
+            <button type="submit" class="btn btn-info"><i class="fas fa-check-circle"></i> Envoyer</button>
           </form>
+
         </div>
         <!-- Information du siège social-->
         <div class="col-md-6">
