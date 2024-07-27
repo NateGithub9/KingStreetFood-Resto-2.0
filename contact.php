@@ -102,7 +102,6 @@
     </div>
   </div>
   <div class="footer-copyright text-center py-3 bgfooter">© 2024 Copyright: <a href="https://resto20-03c35a5c64a8.herokuapp.com/">King-street-food.com</a>
-    Github repo: <a href="https://github.com/NateGithub9/KingStreetFood-Resto-2.0">King-street-food.com</a>
   </div>
 
 
